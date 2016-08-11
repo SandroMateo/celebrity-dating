@@ -13,11 +13,51 @@
       <form>
         <div class="form-group">
           <h4>How old are you?</h4>
-          <input class="form-control" id="age">
+          <input type = "number" class="form-control" id="age">
           <h4>What is your gender?</h4>
-          <input class="form-control" id="gender">
+          <div class="radio gender">
+            <label>
+              <input type="radio" name="gender" value = "0" >
+              male
+            </label>
+          </div>
+          <div class="radio gender">
+            <label>
+              <input type="radio" name="gender" value = "1">
+              female
+            </label>
+          </div>
+          <div class="radio gender">
+            <label>
+              <input type="radio" name="gender" value = "2">
+              other
+            </label>
+          </div>
           <h4>Where would your perfect date take place?</h4>
-          <input class="form-control" id="location">
+          <div class="radio place">
+            <label>
+              <input type="radio" name="place" value = "0">
+              Amazon Jungle
+            </label>
+          </div>
+          <div class="radio place">
+            <label>
+              <input type="radio" name="place" value = "1">
+              Sea Caves
+            </label>
+          </div>
+          <div class="radio place">
+            <label>
+              <input type="radio" name="place" value = "2">
+              Hubble Telescope
+            </label>
+          </div>
+          <div class="radio place">
+            <label>
+              <input type="radio" name="place" value = "3">
+              It doesn't matter where, as long as you're in the arms of your lover.
+            </label>
+          </div>
           <h4>If you're on the verge of death and could only have one more meal, what would it be?</h4>
           <input class="form-control" id="meal">
           <h4>If you could marry a fantasy creature what would it be?</h4>
